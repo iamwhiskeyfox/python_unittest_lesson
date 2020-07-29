@@ -8,3 +8,6 @@ class PlusFunctionTestCase(TestCase):
 
     def test_5_plus_5_returns_10(self):
         self.assertEqual(10, plus(5, 5))
+
+    def test_100_plus_200_returns_300(self):
+        self.assertEqual(300, plus(100, 200))
